@@ -26,7 +26,7 @@ body{
 	list-style: none;
 }
 .menu ul li{
-    
+    padding: 5px;
     padding-right: 40px;
     float: left;
 }
