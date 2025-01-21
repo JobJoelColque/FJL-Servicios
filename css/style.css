@@ -108,7 +108,7 @@ textarea {
 
 /* Formulario de contacto */
 .form-contact {
-	background: #838891;
+	background: rgba(255, 255, 255, 0.8);
 	margin: 1em auto;
 	max-width: 90%;
 	padding: 50px 0;
@@ -118,7 +118,7 @@ textarea {
 
 /* Título formulario de contacto */
 .form-contact .title-form-contact {
-	color: #FFFFFF;
+	color: #0644BF;
  	font: bold 2em 'Dancing Script', sans-serif;
 	margin-bottom: 50px;
 	text-align: center;
