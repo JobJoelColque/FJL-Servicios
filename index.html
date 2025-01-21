@@ -112,12 +112,17 @@
 					<form action="?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" id="contact_user_grupoamsi" class="form-contact" autocomplete="off" accept-charset="utf-8">
 						<h3 class="title-form-contact">Por favor, utilice el siguiente formulario para contactarnos:</h3>
 						<div class="ctn-inputs">
-							<input type="text" name="contact_name_user_grupoamsi" id="contact_name_user_grupoamsi" pattern="[a-zA-Z]{2,100}" class=" effect-input" minlength="2" maxlength="100" autocomplete="off" required="required" required placeholder="Ingrese su apellido">
+							<input type="text" name="contact_empresa_user_grupoamsi" id="contact_empresa_user_grupoamsi" pattern="[a-zA-Z]+{2,100}" class=" effect-input" minlength="2" maxlength="100" autocomplete="off" required="required" required placeholder="Empresa o Razón Social">
 							<span class="bar-input-effect"><i class="fa fa-times clear-input-icon" aria-hidden="true"></i></span>
-							<p id="field-names" class="error-input-form-contact"></p>
+							<p id="field-empresa" class="error-input-form-contact"></p>
 						</div>
 						<div class="ctn-inputs">
-							<input type="text" name="contact_name_user_grupoamsi" id="contact_name_user_grupoamsi" pattern="[a-zA-Z]{2,100}" class=" effect-input" minlength="2" maxlength="100" autocomplete="off" required="required" required placeholder="Ingrese su nombre">
+							<input type="text" name="contact_apellido_user_grupoamsi" id="contact_apellido_user_grupoamsi" pattern="[a-zA-Z]+{2,100}" class=" effect-input" minlength="2" maxlength="100" autocomplete="off" required="required" required placeholder="Ingrese su apellido">
+							<span class="bar-input-effect"><i class="fa fa-times clear-input-icon" aria-hidden="true"></i></span>
+							<p id="field-apellido" class="error-input-form-contact"></p>
+						</div>
+						<div class="ctn-inputs">
+							<input type="text" name="contact_name_user_grupoamsi" id="contact_name_user_grupoamsi" pattern="[a-zA-Z]+{2,100}" class=" effect-input" minlength="2" maxlength="100" autocomplete="off" required="required" required placeholder="Ingrese su nombre">
 							<span class="bar-input-effect"><i class="fa fa-times clear-input-icon" aria-hidden="true"></i></span>
 							<p id="field-names" class="error-input-form-contact"></p>
 						</div>
