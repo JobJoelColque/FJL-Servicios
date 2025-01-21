@@ -13,11 +13,12 @@ body{
 }
 .container-fluid{
 	background: #838891;
-	padding: 0px !important;
+	padding: 5px;
+	text-align: center;
 }
 .menu img{
-	padding: 10px;
-	width: 100px;
+	padding: 5px;
+	width: 80px;
 	height: 80px;
 	
 }
@@ -25,7 +26,7 @@ body{
 	list-style: none;
 }
 .menu ul li{
-    padding: 9px;
+    
     padding-right: 40px;
     float: left;
 }
@@ -50,7 +51,7 @@ body{
 	color: white;
 	text-align: justify;
 	padding: 15px;
-	font-size: 25px;
+	font-size: 18px;
 	border-radius: 25px;
 }
 h1{
