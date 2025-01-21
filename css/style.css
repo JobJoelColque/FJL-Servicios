@@ -128,6 +128,7 @@ textarea {
 .form-contact .ctn-inputs {
 	margin-bottom: 50px;
 	position: relative;
+	color: #FFFFFF!important;
 }
 
 /* Contenedor inputs para los que van 2 en la misma columna formulario de contacto */
@@ -152,7 +153,6 @@ textarea {
 	left: 5px;
 	pointer-events: none;
 	position: absolute;
-	
 	transition: 0.3s ease all;
 	user-select: none;
 }
