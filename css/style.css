@@ -358,7 +358,7 @@ footer p{
 	text-align: center;
 	background: #838891;
 	padding-top: 20px;
-	
+	border-radius: 25px;
 }
 .pie ul li{
 	display: inline-block;
