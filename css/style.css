@@ -173,9 +173,8 @@ textarea {
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
 	padding: 1em 20px 1em 5px;
-	text-transform: lowercase;
 	width: 100%;
-	color: #ffffff;
+	color: #000000;
 }
 
 .form-contact .ctn-inputs .effect-input.inline-block {
