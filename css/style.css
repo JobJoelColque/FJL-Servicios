@@ -1,7 +1,7 @@
 body{
 	padding: 0px !important;
 	margin: 0px !important;
-	background: #ffffff!important;
+	background: #ffffff)!important;
 	font-family: 'Times New Roman'!important;
 }
 :root{
@@ -16,6 +16,10 @@ body{
 	padding: 5px;
 	text-align: center;
 }
+.container-fluid h1{
+color: #ffffff!important;
+float: right;
+}
 .menu img{
 	padding: 5px;
 	width: 80px;
@@ -26,7 +30,7 @@ body{
 	list-style: none;
 }
 .menu ul li{
-    padding: 5px;
+    padding: 10px;
     padding-right: 40px;
     float: left;
 }
@@ -44,7 +48,7 @@ body{
     align-items: center;
 }
 .home img{
-	padding: 0px !important;	
+	padding: 0px !important;
 }
 #historia {  
     display: flex;  
@@ -58,6 +62,8 @@ body{
 
 .text-container {  
     text-align: justify; /* Justifica el texto */  
+    
+}  
 .text p{
 	background: rgba(131, 136, 145, 0.7);
 	color: white;
@@ -405,6 +411,9 @@ footer p{
 }
 .pie ul li .twiter:hover{
 	background: var(--twiter);
+}
+.pie ul li .linkedin:hover{
+	background: var(--linkedin);
 }
 .pie ul li .linkedin:hover{
 	background: var(--linkedin);
