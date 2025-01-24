@@ -57,7 +57,7 @@ float: right;
 }  
 #texto {
     margin-bottom: 10px; /* Espacio entre el botón y el texto */  
-	margin-top: 10px;
+    margin-top: 10px;
 }  
 
 .text-container {  
@@ -68,7 +68,7 @@ float: right;
 	background: rgba(131, 136, 145, 0.7);
 	color: white;
 	text-align: justify;
-	padding: 15px;
+	padding: 5px;
 	font-size: 18px;
 	border-radius: 25px;
 }
