@@ -363,8 +363,9 @@ footer p{
 }
 .ir-arriba{
 	display: none;
-	padding: 5px;
-	background: #838891;
+	padding: 10px;
+	background: rgba(6, 68, 191, 0.8);
+	border-radius: 25px;
 	font-size: 40px;
 	color: white;
 	cursor: pointer;
