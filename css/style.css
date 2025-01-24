@@ -45,7 +45,7 @@ float: right;
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
-    align-items: center;
+    
 }
 .home img{
 	padding: 0px !important;
