@@ -167,7 +167,7 @@ textarea {
 /* Labels formulario de contacto */
 .form-contact .ctn-inputs .support-text-form-contact {
 	color: #FFFFFF;
-	font: normal 14px 'Nunito Sans', sans-serif;
+	font: normal 20px 'Nunito Sans', sans-serif;
 	left: 5px;
 	pointer-events: none;
 	position: absolute;
@@ -179,12 +179,14 @@ textarea {
 .form-contact .ctn-inputs .support-text-form-contact.active-input-form-contact {
 	color: #ffffff;
 	font-size: 12px;
-	
+	top: -20px;
 }
 
 /* Inputs formulario contacto */
 .form-contact .ctn-inputs .effect-input {
 	background-color: rgba(0, 0, 0, 0);
+	font-size: 25px;
+	color: #000000;
 	border-style: none;
 	border-bottom: 1px solid #a4a4a4;
 	display: block;
@@ -192,7 +194,6 @@ textarea {
 	letter-spacing: 3px;
 	padding: 1em 20px 1em 5px;
 	width: 100%;
-	color: #000000;
 }
 
 .form-contact .ctn-inputs .effect-input.inline-block {
