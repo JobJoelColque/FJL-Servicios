@@ -364,9 +364,11 @@ footer p{
 }
 .ir-arriba{
 	display: none;
-	padding: 10px;
-	background: rgba(6, 68, 191, 0.8);
-	border-radius: 25px;
+	padding: 40px;
+	background: url(../img/Logo1.png);
+	background-size: cover;
+	box-sizing: border-box;
+	border-radius: 50px;
 	font-size: 40px;
 	color: white;
 	cursor: pointer;
