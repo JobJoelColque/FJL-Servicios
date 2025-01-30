@@ -356,9 +356,11 @@ textarea {
 
 footer{
 	background: #838891;
-	padding: 40px;
+	text-align: center;
+	padding: 25px;
 }
 footer p{
+	font-size: 21px;
 	color: white;
 }
 .ir-arriba{
@@ -378,8 +380,6 @@ footer p{
 .pie{
 	text-align: center;
 	background: #838891;
-	padding-top: 20px;
-	border-radius: 25px;
 }
 .pie ul li{
 	display: inline-block;
@@ -390,7 +390,6 @@ footer p{
 }
 .pie ul li a{
 	display: block;
-	background: rgba(6, 68, 191, 0.7);
 	color:  #ffffff;
 	line-height: 50px;
 	font-size: 18px;
