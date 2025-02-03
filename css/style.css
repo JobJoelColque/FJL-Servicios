@@ -40,6 +40,8 @@ float: right;
 }
 .menu a:hover{
 	color: #0644BF!important;
+	background: white;
+	padding: 3px 5px;
 }
 .navbar-collapse {
     flex-basis: 100%;
@@ -379,7 +381,6 @@ footer p{
 }
 .pie{
 	text-align: center;
-	background: #838891;
 }
 .pie ul li{
 	display: inline-block;
