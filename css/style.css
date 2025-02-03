@@ -1,6 +1,6 @@
 body{
-	padding: 0px !important;
-	margin: 0px !important;
+	padding: 0px!important;
+	margin: 0px!important;
 	background: #ffffff)!important;
 	font-family: 'Times New Roman'!important;
 }
@@ -39,9 +39,10 @@ float: right;
     float: left;
 }
 .menu a{
-	text-decoration: none !important;
+	text-decoration: none!important;
 	color: #ffffff;
 	font-size: 30px;
+	border-radius: 15px;
 }
 .menu a:hover{
 	color: #0644BF!important;
@@ -56,7 +57,7 @@ float: right;
     
 }
 .home img{
-	padding: 0px !important;
+	padding: 0px!important;
 }
 #historia {  
     display: flex;  
