@@ -46,7 +46,8 @@ float: right;
 	color: #0644BF!important;
 	background: white;
 	padding: 3px 2px;
-	border-radius: 15px; 
+	border-radius: 15px;
+	box-shadow: 3px 3px 3px 3px #0644BF;
 }
 .navbar-collapse {
     flex-basis: 100%;
