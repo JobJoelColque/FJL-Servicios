@@ -46,11 +46,10 @@ float: right;
 	border-radius: 15px;
 }
 .menu a:hover{
-	color: #0644BF!important;
-	background: white;
-	padding: 3px 2px;
+	color: #ffffff!important;
+	background-color: #0644BF;
 	border-radius: 15px;
-	box-shadow: 3px 3px 3px 3px #0644BF;
+	box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.4);
 }
 .navbar-collapse {
     flex-basis: 100%;
