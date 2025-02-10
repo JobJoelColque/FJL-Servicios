@@ -434,4 +434,13 @@ footer p{
 	#comienzos{
 		font-size: 18px;
 	}
+	.presentacion{
+		display: none;
+	}
+	.menu img{
+		margin-left: 190px;
+	}
+	.menu a{
+		font-size: 25px;
+	}
 }
