@@ -72,7 +72,12 @@ float: right;
 .text-container {  
     text-align: justify; /* Justifica el texto */  
     
-}  
+} 
+#comienzos{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
 h1{
 	text-align: center;
 	background: #5a5a5a;
