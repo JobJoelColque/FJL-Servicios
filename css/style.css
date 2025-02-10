@@ -384,6 +384,7 @@ footer p{
 }
 .pie{
 	text-align: center;
+	align-items: center;
 }
 .pie ul li{
 	display: inline-block;
