@@ -76,7 +76,7 @@ float: right;
 #comienzos{
     padding: 5px;
     color: white;
-    font-size: 23px;
+    font-size: 25px;
 }
 h1{
 	text-align: center;
@@ -429,4 +429,9 @@ footer p{
 }
 .pie ul li .linkedin:hover{
 	background: var(--linkedin);
+}
+@media(max-width:950px) {
+	#comienzos{
+		font-size: 15px;
+	}
 }
