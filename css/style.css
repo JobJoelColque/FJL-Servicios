@@ -20,6 +20,10 @@ body{
 color: #ffffff!important;
 float: right;
 }
+#menu{
+	display: flex;
+	align-items: center;
+}
 .container video{
 	border-radius: 25px; 
 	padding: 5px;
@@ -437,8 +441,17 @@ footer p{
 	.presentacion{
 		display: none;
 	}
+	#menu{
+		justify-content: center;
+	}
+	#secciones {  
+        position: absolute; /* Posiciona el botón de forma absoluta */  
+        right: 10px; /* Ajusta la distancia desde la derecha */  
+        top: 10px; /* Ajusta la distancia desde la parte superior */  
+        }  
 	.menu img{
-		margin-left: 160px;
+		margin: auto;
+		display: block;
 	}
 	.menu a{
 		font-size: 25px;
