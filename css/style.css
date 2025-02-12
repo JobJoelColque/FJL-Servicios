@@ -78,6 +78,9 @@ float: right;
     
 } 
 #comienzos{
+    background: #5a5a5a;
+    color: white;
+    text-align: justify;
     padding: 5px;
     color: white;
     font-size: 25px;
