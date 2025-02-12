@@ -462,4 +462,7 @@ footer p{
 	.ir-arriba{
 	right: 100px;
         }
+	.pie ul li{
+	margin: 0 5px;
+	}
 }
