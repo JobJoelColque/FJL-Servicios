@@ -17,8 +17,8 @@ body{
 	text-align: center;
 }
 .container-fluid h1{
-color: #ffffff!important;
-float: right;
+        color: #ffffff!important;
+        float: right;
 }
 #menu{
 	display: flex;
@@ -58,7 +58,6 @@ float: right;
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
-    
 }
 .home img{
 	padding: 0px!important;
@@ -72,11 +71,6 @@ float: right;
     margin-bottom: 10px; /* Espacio entre el botón y el texto */  
     margin-top: 10px;
 }  
-
-.text-container {  
-    text-align: justify; /* Justifica el texto */  
-    
-} 
 #comienzos{
     background: #5a5a5a;
     color: white;
@@ -107,11 +101,6 @@ h1{
 }
 #imagen .col-md-6{
 	padding: 10px;
-}
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
 
 *:focus {
