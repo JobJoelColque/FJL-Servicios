@@ -82,6 +82,8 @@ float: right;
     color: white;
     text-align: justify;
     padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     color: white;
     font-size: 25px;
 }
