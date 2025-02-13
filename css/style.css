@@ -427,7 +427,7 @@ footer p{
 }
 @media(max-width:950px) {
 	#comienzos{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.presentacion{
 		display: none;
