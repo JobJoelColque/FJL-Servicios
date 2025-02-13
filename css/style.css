@@ -430,6 +430,9 @@ footer p{
 	width: 50px;
 	height: 50px;
         }
+	.carousel-inner{
+	padding-top: 10px;
+	}
 	#comienzos{
 		font-size: 20px;
 	}
