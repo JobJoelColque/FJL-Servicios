@@ -427,8 +427,8 @@ footer p{
 }
 @media(max-width:950px) {
 	.menu img{
-	width: 60px;
-	height: 60px;
+	width: 65px;
+	height: 65px;
         }
 	#comienzos{
 		font-size: 20px;
