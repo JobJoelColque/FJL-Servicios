@@ -427,12 +427,9 @@ footer p{
 }
 @media(max-width:950px) {
 	.menu img{
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
         }
-	.carousel-inner{
-	padding-top: 10px;
-	}
 	#comienzos{
 		font-size: 20px;
 	}
