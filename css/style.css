@@ -448,6 +448,9 @@ footer p{
 	.menu a{
 		font-size: 25px;
 	}
+	.form-contact .ctn-inputs .support-text-form-contact {
+	font-size: 15px;
+        }
 	.ir-arriba{
 	right: 100px;
         }
