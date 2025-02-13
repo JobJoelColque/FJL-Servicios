@@ -426,10 +426,6 @@ footer p{
 	background: var(--linkedin);
 }
 @media(max-width:950px) {
-	.menu img{
-	width: 65px;
-	height: 65px;
-        }
 	#comienzos{
 		font-size: 20px;
 	}
@@ -445,6 +441,8 @@ footer p{
         top: 10px; /* Ajusta la distancia desde la parte superior */  
         }  
 	.menu img{
+		width: 65px;
+	        height: 65px;
 		margin: auto;
 		display: block;
 	}
