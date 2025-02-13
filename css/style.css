@@ -59,9 +59,6 @@ body{
     flex-basis: 100%;
     flex-grow: 1;
 }
-.home img{
-	padding: 0px!important;
-}
 #historia {  
     display: flex;  
     flex-direction: column;  
