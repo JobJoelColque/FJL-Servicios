@@ -457,6 +457,9 @@ footer p{
 	.pie ul li{
 	margin: 0 5px;
 	}
+	footer{
+	text-align: justify;
+	}
 	footer p{
 	font-size: 14px;
 	}
