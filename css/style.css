@@ -129,13 +129,33 @@ textarea {
 
 /* Formulario de contacto */
 .form-contact {
-	background: rgba(255, 255, 255, 0.8);
+	background: url(../img/fondo.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	box-sizing: border-box;
 	margin: 1em auto;
 	max-width: 90%;
 	padding: 15px 0;
 	width: 600px;
 	border-radius: 25px;
 }
+.form-contact::before {  
+	border-radius: 25px;
+	content: '';  
+	position: absolute;  
+	top: 0;  
+	left: 0;  
+	width: 100%;  
+	height: 100%;  
+	background-color: rgba(255, 255, 255, 0.9); /* Cambia el color y la opacidad (0.5) según sea necesario */  
+	z-index: 1; /* Asegúrate de que esté sobre la imagen */  
+  }  
+   .form-contact > * {  
+	position: relative; /* Para que los hijos estén por encima del pseudo-elemento */  
+	z-index: 2; /* Asegúrate de que el contenido sea visible */  
+  }  
 
 /* Título formulario de contacto */
 .form-contact .title-form-contact {
