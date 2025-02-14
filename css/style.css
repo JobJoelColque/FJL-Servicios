@@ -80,7 +80,7 @@ body{
 }
 .center{
 	text-align: center;
-	background: #5a5a5a;
+	background: rgba(6, 68, 191, 0.9);
 	color: white;
 	border-radius: 15px;
 }
