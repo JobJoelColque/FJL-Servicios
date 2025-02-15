@@ -447,6 +447,9 @@ footer p{
 	background: var(--linkedin);
 }
 @media(max-width:950px) {
+	hr{
+	display: none;
+	}
 	#comienzos{
 		font-size: 18px;
 	}
