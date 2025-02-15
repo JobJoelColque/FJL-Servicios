@@ -493,7 +493,7 @@ footer p{
 		font-size: 16px;
 	}
 	
-	@media(max-width:700px) {
+	/*@media(max-width:700px) {
 		#comienzos{
 		font-size: 15px;
 	}
@@ -504,9 +504,9 @@ footer p{
 		justify-content: center;
 	}
 	#secciones {  
-	        position: absolute; /* Posiciona el botón de forma absoluta */  
-	        right: 10px; /* Ajusta la distancia desde la derecha */  
-	        top: 10px; /* Ajusta la distancia desde la parte superior */  
+	        position: absolute;
+	        right: 10px;
+	        top: 10px;
         }  
 	.menu img{
 		width: 70px;
@@ -544,4 +544,4 @@ footer p{
 	.btn-form-contact {
 		font-size: 10px;
 	}
-}
+}*/
