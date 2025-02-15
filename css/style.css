@@ -326,7 +326,7 @@ textarea {
 	color: #ffffff;
 	cursor: pointer;
 	display: block;
-	font: normal 12px 'Montserrat', sans-serif;
+	font-size: 12px;
 	letter-spacing: 1px;
 	padding: 10px 20px;
 	text-transform: uppercase;
