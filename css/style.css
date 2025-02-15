@@ -487,7 +487,7 @@ footer p{
 	text-align: justify;
 	}
 	footer p{
-	font-size: 14px;
+	font-size: 16px;
 	}
 	@media(max-width:720px) {
 	#comienzos{
@@ -514,9 +514,10 @@ footer p{
 		font-size: 25px;
 	}
 	.form-contact .ctn-inputs .effect-input {
-	font-size: 15px;
+	font-size: 13px;
 	}
 	.ir-arriba{
+	padding: 30px;
 	right: 100px;
 	bottom: 80px;
         }
@@ -531,5 +532,8 @@ footer p{
 	}
 	footer p{
 	font-size: 12px;
+	}
+	.btn-form-contact {
+	font-size: 10px;
 	}
 }
