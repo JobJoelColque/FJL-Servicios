@@ -125,6 +125,7 @@ textarea {
 	height: 250px;
 	line-height: 20px;
 	resize: none;
+	text-aligne: justify;
 }
 
 /* Formulario de contacto */
