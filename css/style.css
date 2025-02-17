@@ -471,8 +471,8 @@ footer p{
 	        position: absolute; /* Posiciona el botón de forma absoluta */  
 	        right: 10px; /* Ajusta la distancia desde la derecha */  
 	        top: 10px; /* Ajusta la distancia desde la parte superior */ 
-		box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5),   
-                           -6px -6px 15px rgba(6, 68, 191, 0.9);
+		box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5),   
+                           -3px -3px 9px rgba(6, 68, 191, 0.9);
 	}
 	.publicidad{
 		padding-top: 10px;
@@ -485,8 +485,8 @@ footer p{
 	        height: 70px;
 		margin: auto;
 		display: block;
-		box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5),   
-                   	   -6px -6px 15px rgba(6, 68, 191, 0.9);
+		box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5),   
+                   	   -3px -3px 9px rgba(6, 68, 191, 0.9);
 	}
 	.menu a{
 		font-size: 25px;
