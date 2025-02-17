@@ -471,7 +471,11 @@ footer p{
 	        position: absolute; /* Posiciona el botón de forma absoluta */  
 	        right: 10px; /* Ajusta la distancia desde la derecha */  
 	        top: 10px; /* Ajusta la distancia desde la parte superior */  
-        }  
+        }
+	.publicidad{
+	padding-top: 10px;
+	padding-bottom: 10px;
+        }
 	.menu img{
 		width: 70px;
 	        height: 70px;
