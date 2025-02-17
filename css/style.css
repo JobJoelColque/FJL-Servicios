@@ -473,14 +473,18 @@ footer p{
 	        top: 10px; /* Ajusta la distancia desde la parte superior */  
         }
 	.publicidad{
-	padding-top: 10px;
-	padding-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
         }
 	.menu img{
+		border-radius: 50px;
+		padding: 0;
 		width: 70px;
-	        height: 70px;
+	   	 height: 70px;
 		margin: auto;
 		display: block;
+		box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5),   
+                   	   -6px -6px 15px rgba(131, 136, 145, 0.3);
 	}
 	.menu a{
 		font-size: 25px;
