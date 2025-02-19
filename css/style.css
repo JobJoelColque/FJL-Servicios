@@ -26,7 +26,7 @@ body{
 }
 .col-md-12 video{
 	border-radius: 25px; 
-	padding: 5px;
+	padding: 10px;
 	background: url(../img/inox.png);
 	box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5),
 		   -6px -6px 18px rgba(131, 136, 145, 0.3);
@@ -99,7 +99,7 @@ body{
 .col-md-6 img{
 	box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5),
 		   -6px -6px 18px rgba(131, 136, 145, 0.3);
-	padding: 5px;
+	padding: 10px;
 	background: url(../img/inox.png);
 	border-radius: 15px;
 }
@@ -150,7 +150,7 @@ textarea {
 	border-radius: 25px;
 	box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5),
 		   -6px -6px 18px rgba(131, 136, 145, 0.3);
-	border: 5px solid #838891;
+	border: 10px solid #868686;
 }
 .form-contact::before {  
 	border-radius: 25px;
