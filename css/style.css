@@ -150,7 +150,7 @@ textarea {
 	border-radius: 25px;
 	box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5),
 		   -6px -6px 18px rgba(131, 136, 145, 0.3);
-	border: 10px solid rgba(6, 68, 191, 0.9);
+	border: 10px solid #818181;
 }
 .form-contact::before {  
 	border-radius: 25px;
