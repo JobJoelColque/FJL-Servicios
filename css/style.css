@@ -535,6 +535,11 @@ footer p{
 	.menu a{
 		font-size: 25px;
 	}
+	.boton-imagen {
+		font-size: 15px;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+	}
 	.contacto {  
 		max-width: 100%;
 	}
