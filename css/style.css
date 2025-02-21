@@ -106,6 +106,13 @@ body{
 #imagen .col-md-6{
 	padding: 10px;
 }
+*:focus {
+	outline: 0;
+}
+
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 .contacto {  
     background: url(../img/inox.png); /* Usa aquí la imagen o color de fondo que desees */  
     padding: 10px; /* Espacio alrededor del formulario */  
