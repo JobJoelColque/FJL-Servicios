@@ -348,7 +348,7 @@ textarea {
 /* Hover botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
 .btn-form-contact:hover,
 .btn-form-contact:focus {
-	background-color:#838891;
+	background: url(../img/inox.png);
 }
 
 /* Efecto cuando dan click en el botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
