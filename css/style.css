@@ -106,15 +106,15 @@ body{
 #imagen .col-md-6{
 	padding: 10px;
 }
-*:focus {
-	outline: 0;
-}
-
-html {
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-
+.contacto {  
+    background: url(../img/inox.png); /* Usa aquí la imagen o color de fondo que desees */  
+    padding: 10px; /* Espacio alrededor del formulario */  
+    border-radius: 15px; /* Bordes redondeados para el contenedor */  
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5),
+	       -6px -6px 18px rgba(131, 136, 145, 0.3);
+    max-width: 50%; /* Máximo ancho del contenedor */  
+    margin: 0 auto; /* Centrado del contenedor en la página */  
+}  
 
 /* Estilo del scroll para los textarea */
 textarea::-webkit-scrollbar {
@@ -148,10 +148,7 @@ textarea {
 	padding: 15px 0;
 	width: 600px;
 	border-radius: 25px;
-	box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5),
-		   -6px -6px 18px rgba(131, 136, 145, 0.3);
-	border: 10px solid #818181;
-}
+}	
 .form-contact::before {  
 	border-radius: 25px;
 	content: '';  
@@ -387,7 +384,9 @@ textarea {
 		transform: translate3d(10px, 0, 0);
 	}
 }
-
+#footer{
+	padding-top: 8px;
+}
 footer{
 	background: rgba(6, 68, 191, 0.9);
 	text-align: center;
@@ -490,6 +489,9 @@ footer p{
 	}
 	.menu a{
 		font-size: 25px;
+	}
+	.contacto {  
+		max-width: 100%;
 	}
 	.form-contact .ctn-inputs .effect-input {
 		font-size: 17px;
