@@ -105,6 +105,9 @@
 				</div>
 				<div class="col-md-6" data-aos="fade-left">
 					<img src="img/4fjl.png" alt="Visita técnica para relevo de equipos" width="100%">
+					<div class="col-md-12 cobertura" data-aos="zoom-in">
+						<button class="boton-imagen" onclick="abrirImagen()">Zonas de servicio</button>
+					</div>
 				</div>
 			</div>
 			<div class="row" id="imagen">
@@ -192,6 +195,17 @@
 		</div>
 	</div>
 	<span class="ir-arriba"></span>
+	<script>  
+        function abrirImagen() {  
+            // Cambia 'ruta/de/tu/imagen.jpg' por la URL de tu imagen  
+            const urlImagen = 'https://github.com/JobJoelColque/FJL-Servicios/blob/main/img/cobertura.png?raw=true';  
+            const ventana = window.open('', '', 'width=600,height=800');  
+            ventana.document.write('<html><head><title>Zona de Cobertura</title></head><body style="margin:0;">');  
+            ventana.document.write('<img src="' + urlImagen + '" style="width:100%; height:auto;" />');  
+            ventana.document.write('</body></html>');  
+            ventana.document.close();  
+        }  
+    	</script> 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
