@@ -540,6 +540,9 @@ footer p{
 		letter-spacing: 1px;
 		padding: 5px 10px;
 	}
+	.cobertura{
+		left: 30%;
+	}
 	.contacto {  
 		max-width: 100%;
 	}
