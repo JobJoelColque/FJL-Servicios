@@ -112,7 +112,7 @@ body{
 .cobertura{
 	position: absolute;
 	top: 48%;
-	left: 32%;
+	left: 31%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
 }
