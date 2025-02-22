@@ -110,9 +110,9 @@ body{
     position: relative; /* Establece el contexto para el posicionamiento absoluto */  
 }  
 #cobertura {
-	top: 50%;
+	top: 52%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -52%);
 	background-color: #0644BF;
 	border-radius: 5px;
 	border-style: none;
