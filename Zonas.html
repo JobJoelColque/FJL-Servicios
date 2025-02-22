@@ -1,0 +1,62 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Zonas de Servicio</title>  
+    <style>  
+        body {  
+            background-color: #0644BF; /* Cambia el fondo a azul */  
+            color: white; /* Cambia el color del texto a blanco */  
+            text-align: center;  
+            font-family: 'Times New Roman';  
+        }  
+        .container {  
+            position: relative; /* Posiciona el contenedor para poder usar posición absoluta en los elementos internos */  
+            max-width: 100%; /* Hace que la imagen sea responsiva */  
+        }  
+        img {  
+            width: 100%; /* Hace que la imagen ocupe todo el contenedor */  
+            height: auto; /* Mantiene la proporción de la imagen */  
+        }  
+        .overlay h3{  
+            position: absolute; /* Posiciona el texto sobre la imagen */  
+            top: 1%; /* Centra verticalmente */  
+            left: 50%; /* Centra horizontalmente */  
+            transform: translate(-50%, -1%); /* Ajusta la posición para centrarse */  
+            text-align: center;  
+            z-index: 1; /* Asegura que el texto esté por encima de la imagen */  
+        }
+        .overlay p{  
+            position: absolute; /* Posiciona el texto sobre la imagen */  
+            top: 85%; /* Centra verticalmente */  
+            left: 50%; /* Centra horizontalmente */  
+            transform: translate(-50%, -85%); /* Ajusta la posición para centrarse */  
+            text-align: justify;
+            font-size: 20px;
+            width: 500px;  
+            z-index: 1; /* Asegura que el texto esté por encima de la imagen */  
+        }
+        h3{
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(6, 68, 191, 0.8);
+        }
+        p{
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(6, 68, 191, 0.8);
+        } 
+    </style>  
+</head>  
+<body>  
+    <div class="container">  
+        <img src="https://github.com/JobJoelColque/FJL-Servicios/blob/main/img/cobertura.png?raw=true" alt="Cobertura" />  
+        <div class="overlay">  
+            <h3>Zonas de Servicio</h1>  
+            <p>Brindamos servicios en la zona en la que se encuentre la planta productiva; 
+                gestionando seguros, materiales e insumos para garantizar un inicio y finalización de tareas</p>  
+        </div>  
+    </div>  
+</body>  
+</html>  
