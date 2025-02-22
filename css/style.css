@@ -509,7 +509,29 @@ footer p{
 .pie ul li .linkedin:hover{
 	background: var(--linkedin);
 }
-@media(max-width:1600px) {
+@media(max-width:1574px) {
+	.boton-imagen {
+		font-size: 15px;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+	}
+	.cobertura{
+		left: 35%;
+	}
+}
+
+@media(max-width:1169px) {
+	.boton-imagen {
+		font-size: 15px;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+	}
+	.cobertura{
+		left: 31%;
+	}
+}
+
+@media(max-width:980px) {
 	hr{
 		display: none;
 	}
@@ -576,6 +598,36 @@ footer p{
 	}
 	footer p{
 		font-size: 16px;
+	}
+}
+@media(max-width:960px) {
+	.boton-imagen {
+		font-size: 10px;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+	}
+	.cobertura{
+		left: 32%;
+	}
+}
+@media(max-width:743px) {
+	.boton-imagen {
+		font-size: 15px;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+	}
+	.cobertura{
+		left: 33%;
+	}
+}
+@media(max-width:480px) {
+	.boton-imagen {
+		font-size: 15px;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+	}
+	.cobertura{
+		left: 31%;
 	}
 }
 	
