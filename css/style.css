@@ -111,9 +111,9 @@ body{
 }  
 .cobertura{
 	position: absolute;
-	top: 48%;
+	top: 47%;
 	left: 31%;
-	transform: translate(-31%, -40%);
+	transform: translate(-31%, -47%);
 	z-index: 1;
 }
 .boton-imagen {
@@ -509,7 +509,7 @@ footer p{
 .pie ul li .linkedin:hover{
 	background: var(--linkedin);
 }
-@media(max-width:1440px) {
+@media(max-width:1600px) {
 	hr{
 		display: none;
 	}
