@@ -113,7 +113,7 @@ body{
 	position: absolute;
 	top: 48%;
 	left: 31%;
-	transform: translate(-50%, -50%);
+	transform: translate(-31%, -40%);
 	z-index: 1;
 }
 .boton-imagen {
