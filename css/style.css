@@ -621,7 +621,7 @@ footer p{
 		left: 35%;
 	}
 }
-@media(max-width:743px) {
+@media(max-width:742px) {
 	.boton-imagen {
 		font-size: 15px;
 		letter-spacing: 1px;
