@@ -109,14 +109,10 @@ body{
 .col-md-6 {  
     position: relative; /* Establece el contexto para el posicionamiento absoluto */  
 }  
-.cobertura{
-	position: absolute;
-	top: 47%;
-	left: 31%;
-	transform: translate(-31%, -47%);
-	z-index: 1;
-}
-.boton-imagen {
+#cobertura {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	background-color: #0644BF;
 	border-radius: 5px;
 	border-style: none;
@@ -134,17 +130,17 @@ body{
 							5px 6px #202020;
 	color: #ffffff;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 15px;
 	letter-spacing: 1px;
-	padding: 10px 20px;
+	padding: 5px 10px;
 	text-transform: uppercase;
-    transition: 0.3s ease all;
+    	transition: 0.3s ease all;
 }
-.boton-imagen:hover,
-.boton-imagen:focus{
+#cobertura:hover,
+#cobertura:focus{
 	background: url(../img/inox.png);
 }
-.boton-imagen:active {
+#cobertura:active {
 	box-shadow: 1px 0px #202020,
 	 						0px 1px #202020,
 	 						2px 1px #202020,
@@ -153,7 +149,6 @@ body{
 	 						2px 3px #202020,
 	 						4px 3px #202020,
 	 						3px 4px #202020;
-	transform: translate(2px);
 }
 *:focus {
 	outline: 0;
