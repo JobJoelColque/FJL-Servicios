@@ -20,9 +20,17 @@
         img {  
             width: 100%; /* Hace que la imagen ocupe todo el contenedor */  
             height: auto; /* Mantiene la proporción de la imagen */  
+        }
+	.overlay {  
+            display: flex; /* Usar flexbox para alinear elementos */  
+            flex-direction: column; /* Coloca los elementos en columna */  
+            align-items: center; /* Centra horizontalmente */  
+            position: absolute; /* Permite que el overlay esté sobre la imagen */  
+            width: 100%; /* Asegura que el overlay ocupe todo el ancho */  
+            top: 0; /* Alinea al inicio del contenedor */  
+            z-index: 1; /* Asegura que el texto esté por encima de la imagen */  
         }  
         .overlay h2{  
-            position: absolute; /* Posiciona el texto sobre la imagen */  
             top: 1%; /* Centra verticalmente */  
             left: 50%; /* Centra horizontalmente */  
             transform: translate(-50%, 1%); /* Ajusta la posición para centrarse */  
@@ -31,7 +39,6 @@
         }
         .overlay p{
 	    margin: 0;
-            position: absolute; /* Posiciona el texto sobre la imagen */  
             top: 85%; /* Centra verticalmente */  
             left: 50%; /* Centra horizontalmente */  
             transform: translate(-50%, -85%); /* Ajusta la posición para centrarse */  
@@ -41,7 +48,7 @@
 	    max-width: 600px;
             z-index: 1; /* Asegura que el texto esté por encima de la imagen */  
         }
-        h3{
+        h2{
             padding: 10px;
             border-radius: 10px;
             background-color: rgba(6, 68, 191, 0.5);
@@ -63,7 +70,7 @@
     <div class="container">  
         <img src="https://github.com/JobJoelColque/FJL-Servicios/blob/main/img/cobertura.png?raw=true" alt="Cobertura" />  
         <div class="overlay">  
-            <h3>Zonas de Servicio</h1>  
+            <h2>Zonas de Servicio</h1>  
             <p><strong>Brindamos servicios en la zona en la que se encuentre la planta productiva; 
                 gestionando seguros, materiales e insumos para garantizar un inicio y finalización de tareas</strong></p>  
         </div>  
