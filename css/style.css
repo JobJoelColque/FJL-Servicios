@@ -641,16 +641,7 @@ footer p{
 		left: 36%;
 	}
 }
-@media(max-width:480px) {
-	.boton-imagen {
-		font-size: 15px;
-		letter-spacing: 1px;
-		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 29%;
-	}
-}
+
 	
 	/*@media(max-width:700px) {
 		#comienzos{
