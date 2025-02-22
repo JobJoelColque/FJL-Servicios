@@ -504,27 +504,6 @@ footer p{
 .pie ul li .linkedin:hover{
 	background: var(--linkedin);
 }
-@media(max-width:1574px) {
-	.boton-imagen {
-		font-size: 15px;
-		letter-spacing: 1px;
-		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 35%;
-	}
-}
-
-@media(max-width:1169px) {
-	.boton-imagen {
-		font-size: 15px;
-		letter-spacing: 1px;
-		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 31%;
-	}
-}
 
 @media(max-width:980px) {
 	hr{
@@ -563,13 +542,9 @@ footer p{
 	.menu a{
 		font-size: 25px;
 	}
-	.boton-imagen {
-		font-size: 15px;
-		letter-spacing: 1px;
+	#cobertura {
+		font-size: 10px;
 		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 31%;
 	}
 	.contacto {  
 		max-width: 100%;
@@ -595,55 +570,11 @@ footer p{
 		font-size: 16px;
 	}
 }
-@media(max-width:960px) {
-	.boton-imagen {
-		font-size: 10px;
-		letter-spacing: 1px;
-		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 32%;
-	}
-}
 
-@media(max-width:746px) {
-	.boton-imagen {
-		font-size: 15px;
-		letter-spacing: 1px;
-		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 35%;
-	}
-}
-@media(max-width:742px) {
-	.boton-imagen {
-		font-size: 15px;
-		letter-spacing: 1px;
-		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 36%;
-	}
-}
-@media(max-width:736px) {
-	.boton-imagen {
-		font-size: 15px;
-		letter-spacing: 1px;
-		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 36%;
-	}
-}
 @media(max-width:482px) {
-	.boton-imagen {
-		font-size: 10px;
-		letter-spacing: 1px;
+	#cobertura {
+		font-size: 15px;
 		padding: 5px 10px;
-	}
-	.cobertura{
-		left: 33%;
 	}
 }
 	
