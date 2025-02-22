@@ -509,7 +509,7 @@ footer p{
 .pie ul li .linkedin:hover{
 	background: var(--linkedin);
 }
-@media(max-width:950px) {
+@media(max-width:1440px) {
 	hr{
 		display: none;
 	}
