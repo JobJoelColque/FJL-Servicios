@@ -571,12 +571,7 @@ footer p{
 	}
 }
 
-@media(max-width:482px) {
-	#cobertura {
-		font-size: 15px;
-		padding: 5px 10px;
-	}
-}
+
 	
 	/*@media(max-width:700px) {
 		#comienzos{
