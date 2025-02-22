@@ -610,6 +610,17 @@ footer p{
 		left: 32%;
 	}
 }
+
+@media(max-width:746px) {
+	.boton-imagen {
+		font-size: 15px;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+	}
+	.cobertura{
+		left: 35%;
+	}
+}
 @media(max-width:743px) {
 	.boton-imagen {
 		font-size: 15px;
