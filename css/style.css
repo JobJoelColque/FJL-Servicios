@@ -643,7 +643,7 @@ footer p{
 }
 @media(max-width:482px) {
 	.boton-imagen {
-		font-size: 12px;
+		font-size: 10px;
 		letter-spacing: 1px;
 		padding: 5px 10px;
 	}
