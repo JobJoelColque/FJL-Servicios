@@ -13,7 +13,6 @@ body{
 }
 .container-fluid{
 	background: rgba(6, 68, 191, 0.9);
-	padding: 5px;
 	text-align: center;
 }
 .container-fluid h1{
@@ -49,10 +48,8 @@ body{
 }
 .menu a{
 	text-decoration: none!important;
-	box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, .2);
 	color: #ffffff;
 	font-size: 30px;
-	border-radius: 15px;
 }
 .menu a:hover{
 	color: #ffffff!important;
@@ -506,6 +503,9 @@ footer p{
 }
 
 @media(max-width:980px) {
+	.container-fluid{
+	padding: 5px;
+	}
 	hr{
 		display: none;
 	}
@@ -540,6 +540,8 @@ footer p{
                    	   -3px -3px 9px rgba(6, 68, 191, 0.9);
 	}
 	.menu a{
+		box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, .2);
+		border-radius: 15px;
 		font-size: 25px;
 	}
 	#cobertura {
