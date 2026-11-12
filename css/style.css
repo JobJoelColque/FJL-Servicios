@@ -455,7 +455,7 @@ textarea {
 }
 footer{
 	padding-top: 8px;
-	background: rgba(6, 68, 191, 0.9)url(../img/fondoazul.png);
+	background: url(../img/fondoazul.png);
 	text-align: center;
 	padding: 10px;
 }
