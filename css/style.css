@@ -38,9 +38,8 @@ body{
 	padding-top: 15px;
 }
 .menu img{
-	padding: 5px;
-	width: 80px;
-	height: 80px;
+	padding: 10px;
+	width: 100px;	
 }
 .menu ul{
 	list-style: none;
