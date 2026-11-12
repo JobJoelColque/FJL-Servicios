@@ -16,7 +16,7 @@ body{
 	--linkedin: #0077B5;
 }
 .container-fluid{
-	background: rgba(6, 68, 191, 0.9);
+	background: url(../img/fondoazul.png);
 	text-align: center;
 }
 .container-fluid h1{
@@ -57,12 +57,14 @@ body{
 }
 .menu a:hover{
 	color: #ffffff!important;
-	background-color: #0644BF;
+	background: url(../img/fondoazul.png);
 	border-radius: 15px;
 	box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.4);
 }
 #verde:hover{
-	background-color: rgb(64, 145, 108);
+	background-color: url(../img/fondoverde.png);
+	border-radius: 15px;
+	box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.4);
 }
 .navbar-collapse {
     flex-basis: 100%;
@@ -78,7 +80,7 @@ body{
     margin-top: 10px;
 }  
 #comienzos{
-    background: rgba(6, 68, 191, 0.9);
+    background: url(../img/fondoazul.png);
     color: white;
     text-align: justify;
     padding: 10px;
@@ -89,7 +91,7 @@ body{
 }
 #presentacion{
     border-radius: 15px;
-    background: rgba(6, 68, 191, 0.9);
+    background: url(../img/fondoazul.png);
     color: white;
     text-align: justify;
     padding: 10px;
@@ -100,7 +102,7 @@ body{
 }
 .center{
 	text-align: center;
-	background: rgba(6, 68, 191, 0.9);
+	background: url(../img/fondoazul.png);
 	color: white;
 	border-radius: 15px;
 }
@@ -113,7 +115,7 @@ body{
 }
 .col-md-6 img{
 	box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5),
-		   -6px -6px 18px rgba(131, 136, 145, 0.3);
+				-6px -6px 18px rgba(131, 136, 145, 0.3);
 	padding: 10px;
 	background: url(../img/inox.png);
 	border-radius: 15px;
@@ -128,7 +130,7 @@ body{
 	top: 52%;
 	left: 50%;
 	transform: translate(-50%, -52%);
-	background-color: #0644BF;
+	background: url(../img/fondoazul.png);
 	border-radius: 5px;
 	border-style: none;
 	box-shadow: 1px 0px #202020,
@@ -191,7 +193,7 @@ textarea::-webkit-scrollbar {
 textarea::-webkit-scrollbar-thumb {
 	background-color: rgba(0, 0, 0, 0.2);
 	box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1) inset,
-							0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+				 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
 }
 
 textarea {
@@ -379,7 +381,7 @@ textarea {
 
 /* Botones Formulario */
 .btn-form-contact {
-	background-color: #0644BF;
+	background: url(../img/fondoazul.png);
 	border-radius: 2px;
 	border-style: none;
 	box-shadow: 1px 0px #202020,
@@ -450,11 +452,10 @@ textarea {
 		transform: translate3d(10px, 0, 0);
 	}
 }
-#footer{
-	padding-top: 8px;
 }
 footer{
-	background: rgba(6, 68, 191, 0.9);
+	padding-top: 8px;
+	background: rgba(6, 68, 191, 0.9)url(../img/fondoazul.png);
 	text-align: center;
 	padding: 10px;
 }
@@ -464,8 +465,8 @@ footer p{
 }
 .ir-arriba{
 	display: none;
-	padding: 40px;
-	background: url(../img/Logo1.png);
+	padding: 50px;
+	background: url(../img/Logo.gif);
 	background-size: cover;
 	box-sizing: border-box;
 	border-radius: 50px;
