@@ -563,6 +563,7 @@ footer p{
 		font-weight: 700;
 	}
 	.menu a:hover{
+		color: #ffffff;
 		background: url(../img/Fondoazul.png);		
 	}	
 	#secciones {  
