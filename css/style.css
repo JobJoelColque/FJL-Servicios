@@ -538,6 +538,18 @@ footer p{
 	#menu{
 		justify-content: center;
 	}
+	.menu img{
+		border-radius: 50px;
+		padding: 0;
+		width: 70px;	    
+		margin: auto;
+		display: block;		
+	}
+	.menu a{
+		box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, .2);
+		border-radius: 15px;
+		font-size: 25px;
+	}
 	#menu a {
 		color: #021F59;
 		font-weight: 500;
@@ -559,12 +571,9 @@ footer p{
 	.menu img{
 		border-radius: 50px;
 		padding: 0;
-		width: 70px;
-	        height: 70px;
+		width: 70px;	    
 		margin: auto;
-		display: block;
-		box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5),   
-                   	   -3px -3px 9px rgba(6, 68, 191, 0.9);
+		display: block;		
 	}
 	.menu a{
 		box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, .2);
