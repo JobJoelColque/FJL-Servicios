@@ -614,6 +614,9 @@ footer p{
 	        right: 100px;
 		bottom: 80px;
         }
+	.pie ul li img{
+	width: 40px;
+	}
 	.pie ul li{
 		margin: 0 5px;
 	}
