@@ -496,12 +496,16 @@ footer p{
 	height: 50px;
 	text-align: center !important;
 }
+.pie ul li img{
+	width: 60px;
+	padding: 10px,10px,5px,5px;
+}
 .pie ul li a{
 	display: block;
-	color:  #ffffff;
+	background: url(../img/inox.png);	
 	line-height: 50px;
-	font-size: 18px;
-	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+	font-size: 20px;
+	box-shadow: 0 3px 5px 0px rgba(255, 255, 255, 0.6);
 	transition: -2s;
 	border-radius: 10px;
 }
