@@ -57,18 +57,18 @@ body{
 }
 .menu a{
 	text-decoration: none!important;
-	color: #ffffff;
-	font-weight: 600;
+	color: #ffffff;	
 	font-size: 30px;
 }
 .menu a:hover{
 	color: #021F59!important;
 	background: url(../img/inox.png);
 	border-radius: 15px;
+	font-weight: 600;
 	box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.4);
 }
 #verde:hover{
-	color: #ffffff;
+	color: #ffffff!important;
 	background: url(../img/fondoverde.png);
 	border-radius: 15px;
 	box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.4);
