@@ -1,12 +1,18 @@
 body{
-	background: url(../img/fondoweb.png);
-	background-size: cover;
-	box-sizing: border-box;
-	background-attachment: fixed;
-	padding: 0px!important;
-	margin: 0px!important;
-	/*background: rgba(131, 136, 145, 0.3);*/
-	font-family: 'Times New Roman'!important;
+	background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.95),
+            rgba(0, 0, 0, 0.85)
+        ),
+    url("../img/fondoweb.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Times New Roman' !important;
 }
 :root{
 	--mail: #079DD9;
