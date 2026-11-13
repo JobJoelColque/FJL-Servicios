@@ -523,7 +523,8 @@ footer p{
 
 @media(max-width:980px) {
 	.container-fluid{
-	padding: 5px;
+		background: url(../img/inox.png);
+		padding: 8px;
 	}
 	hr{
 		display: none;
@@ -537,12 +538,19 @@ footer p{
 	#menu{
 		justify-content: center;
 	}
+	#menu a {
+		color: #021F59;
+		font-weight: 500;
+	}
+	.menu a:hover{
+		background: url(../img/Fondoazul.png);		
+	}	
 	#secciones {  
 	        position: absolute; /* Posiciona el botón de forma absoluta */  
 	        right: 10px; /* Ajusta la distancia desde la derecha */  
 	        top: 10px; /* Ajusta la distancia desde la parte superior */ 
-		box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5),   
-                           -3px -3px 9px rgba(6, 68, 191, 0.9);
+			box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5),   
+                        -3px -3px 9px rgba(6, 68, 191, 0.9);
 	}
 	.publicidad{
 		padding-top: 8px;
