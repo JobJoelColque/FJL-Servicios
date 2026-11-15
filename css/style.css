@@ -96,9 +96,12 @@ body{
     color: white;
     font-size: 25px;
 }
+#prodtit {
+	background: url(../img/fondoverde.png);
+}
 #presentacion{
     border-radius: 15px;
-    background: url(../img/fondoazul.png);
+    background: url(../img/fondoverde.png);
     color: white;
     text-align: justify;
     padding: 10px;
