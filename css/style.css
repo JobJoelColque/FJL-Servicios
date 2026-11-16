@@ -1,18 +1,108 @@
-body{
-	background-image:
-       /* linear-gradient(
-            rgba(0, 0, 0, 0.95),
-            rgba(0, 0, 0, 0.85)
-        ),*/
-    url("../img/fondoweb.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
     box-sizing: border-box;
     padding: 0 !important;
     margin: 0 !important;
-    font-family: 'Times New Roman' !important;
+    font-family: 'Times New Roman', serif !important;
+    background-color: #03070b;
+}
+
+/* FONDO INDUSTRIAL OSCURO */
+
+.fondo-industrial {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background-image: url("../img/fondoweb.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+    pointer-events: none;
+}
+
+/* CAPA DE ILUMINACIÓN FLUORESCENTE */
+
+.fondo-iluminado {
+    position: absolute;
+    inset: 0;
+
+    background-image: url("../img/fondowebluz.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0;
+
+    animation: encendidoFluorescente 4.5s linear 1 forwards;
+}
+
+/* ENCENDIDO REALISTA DE TUBOS FLUORESCENTES */
+
+@keyframes encendidoFluorescente {
+
+    /* Planta inicialmente oscura */
+    0%, 12% {
+        opacity: 0;
+    }
+
+    /* Primer intento de encendido */
+    14% {
+        opacity: 0.22;
+    }
+
+    /* El tubo se apaga */
+    17% {
+        opacity: 0.02;
+    }
+
+    /* Segundo intento */
+    23% {
+        opacity: 0.48;
+    }
+
+    /* Nuevo parpadeo */
+    26% {
+        opacity: 0.05;
+    }
+
+    /* Comienza a estabilizarse */
+    35% {
+        opacity: 0.65;
+    }
+
+    39% {
+        opacity: 0.30;
+    }
+
+    /* Encendido definitivo */
+    48% {
+        opacity: 0.80;
+    }
+
+    60% {
+        opacity: 0.70;
+    }
+
+    /* Iluminación final tenue y constante */
+    75%, 100% {
+        opacity: 0.55;
+    }
+}
+
+/* ACCESIBILIDAD */
+
+@media (prefers-reduced-motion: reduce) {
+    .fondo-iluminado {
+        animation: none;
+        opacity: 0.55;
+    }
 }
 :root{
 	--mail: #079DD9;
@@ -392,7 +482,105 @@ textarea {
 	position: relative;
 	top: 5px;
 }
+/* ===================================
+   ADJUNTAR ARCHIVOS - FJL SERVICIOS
+=================================== */
 
+.ctn-adjunto {
+	padding-bottom: 1px!important;
+	text-align: center;
+    width: auto;    
+}
+
+.label-adjunto {
+    display: block;
+    font-family: 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;    
+}
+
+.contenedor-adjunto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+
+}
+
+/* Ocultar input original visualmente */
+.input-adjunto {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+/* Botón personalizado */
+.btn-adjunto {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    background: linear-gradient(
+        180deg,
+        #24649a 0%,
+        #123b60 100%
+    );
+
+    color: #ffffff;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 18px;
+    border: 1px solid #0c304f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-adjunto:hover {
+    background: linear-gradient(
+        180deg,
+        #327db5 0%,
+        #18517d 100%
+    );
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    transform: translateY(-2px);
+}
+
+.input-adjunto:focus-visible + .btn-adjunto {
+    outline: 3px solid #6aa8df;
+    outline-offset: 3px;
+}
+
+/* Nombre del archivo */
+#nombre-archivo {
+	color:#777;
+	display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+    overflow-wrap: anywhere;
+}
+
+/* Texto informativo */
+.ayuda-adjunto {
+    font-family: 'Times New Roman', serif;
+    font-size: 13px;
+    color: #777;
+    
+}
+
+#error-adjunto:not(:empty) {
+    color: #b00020;
+    margin-top: 8px;
+}
 .form-contact .ctn-btns-form-contact {
 	display: flex;
 	justify-content: space-around;
