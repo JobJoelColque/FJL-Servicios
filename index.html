@@ -17,8 +17,15 @@
 	<script src="js/arriba.js"></script>
 </head>
 <body>
+	<!-- Fondo industrial animado -->
+    <div class="fondo-industrial" aria-hidden="true">
+        <div class="fondo-iluminado"></div>
+    </div>
     <nav class="navbar navbar-expand-lg" id="mainNav">
-        <div id="menu" class="container-fluid menu">
+        <div id="menu" class="container-fluid menu" data-aos="fade-zoom-in"
+	     data-aos-easing="ease-in-back"
+	     data-aos-delay="2500"
+	     data-aos-offset="300">
             <img class="logo" src="img/Logo2.png" alt="FJL Servicios"><h1 class="presentacion">Servicios</h1>
             <button id="secciones" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             	<svg  xmlns="http://www.w3.org/2000/svg" width="20" height="50" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
@@ -35,7 +42,10 @@
             </div>
         </div>
     </nav>
-    <div style="padding-top: 0px;margin: 0px;" id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div style="padding-top: 0px;margin: 0px;" id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-aos="fade-zoom-in"
+	     data-aos-easing="ease-in-back"
+	     data-aos-delay="2500"
+	     data-aos-offset="300">
         <div class="carousel-inner">
             <div class="carousel-item active">
 				<picture>
@@ -71,7 +81,10 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <p class="text-container" id="comienzos">  
+    <p class="text-container" id="comienzos" data-aos="fade-zoom-in"
+	   data-aos-easing="ease-in-back"
+	   data-aos-delay="2500"
+	   data-aos-offset="0">  
 	Nuestra trayectoria inicia como empresa de montaje e instalación eléctrica para diferentes Pymes e Industrias, como así maniobras en tableros de media tensión.
 	Sumamos hace pocos años el departamento de metrología para ofrecer <strong>servicios de calibración de instrumentos de medición y control</strong>.
 	Contamos con patrones certicados bajo <strong>norma ISO 17025/17</strong>. Para asegurar la eficacia de sus procesos, emitimos <strong>certificados de calibración</strong> adjuntando trazabilidad correspondiente.  
@@ -80,7 +93,7 @@
 	<div class="container">
 	    <div class="col-md-12">
 		<hr>
-		<h1 class="center">Nosotros</h1>
+		<h1 class="center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">Nosotros</h1>
 		<div class="publicidad">
 			<video src="video/Video página.mp4" controls autoplay muted loop width="100%" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"></video>
 		</div>
@@ -92,7 +105,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="center">Servicios</h1>
+					<h1 class="center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">Servicios</h1>
 				</div>
 			</div>
 			<div class="row" id="imagen">
@@ -128,10 +141,10 @@
 				<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 id="prodtit" class="center">Productos</h1>
+					<h1 id="prodtit" class="center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">Productos</h1>
 				</div>
 				<div class="col-md-12">
-					<p id="presentacion">  
+					<p id="presentacion" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">  
 						Ofrecemos una amplia variedad de productos para satisfacer las necesidades de nuestros clientes cotidianos, 
 						quienes nos eligen día a día. Nuestros insumos están disponibles para su adquisición a través de WhatsApp o correo electrónico, 
 						con respuesta rápida y eficiente. ¡No dude en contactarnos para obtener más información!.  
@@ -171,7 +184,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="center">Contacto</h1>
+					<h1 class="center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">Contacto</h1>
 					<div class="contacto" data-aos="zoom-out" data-aos-duration="1000">
 						<form name="Contacto" method="post" id="contact_user_grupoamsi" class="form-contact" autocomplete="off" accept-charset="utf-8" data-netlify="true">
 							<div class="ctn-inputs">  
@@ -215,6 +228,21 @@
 									<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
 								</span>
 								<p id="field-comments" class="error-input-form-contact"></p>
+							</div>
+							<!-- ADJUNTAR ARCHIVO -->
+							<div class="ctn-inputs ctn-adjunto">								
+								<div class="contenedor-adjunto">
+									<input type="file" name="contact_archivo_user_grupoamsi" id="contact_archivo_user_grupoamsi" accept=".pdf,.txt,application/pdf,text/plain" class="input-adjunto">
+									<label for="contact_archivo_user_grupoamsi"	class="btn-adjunto">
+										<i class="fa fa-paperclip" aria-hidden="true"></i>
+										Seleccionar archivo
+									</label>
+									<span id="nombre-archivo">
+										Ningún archivo seleccionado
+									</span>
+								</div>
+								<p class="ayuda-adjunto">Formatos permitidos: PDF o TXT. Tamaño máximo: 5 MB.</p>
+								<p id="error-adjunto"class="error-input-form-contact"role="alert"></p>
 							</div>
 							<div class="ctn-btns-form-contact">
 								<input type="reset" id="clear_contact_user_grupoamsi" name="clear_contact_user_grupoamsi" class="btn-form-contact" value="Limpiar">
