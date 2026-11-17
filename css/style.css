@@ -520,17 +520,11 @@ textarea {
 
 /* Botón personalizado */
 .btn-adjunto {
+	background: url(../img/fondoazul.png);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-
-    background: linear-gradient(
-        180deg,
-        #24649a 0%,
-        #123b60 100%
-    );
-
+    gap: 10px;    
     color: #ffffff;
     font-family: 'Times New Roman', serif;
     font-size: 16px;
@@ -543,12 +537,7 @@ textarea {
 }
 
 .btn-adjunto:hover {
-    background: linear-gradient(
-        180deg,
-        #327db5 0%,
-        #18517d 100%
-    );
-
+    background: url(../img/inox.png);
     box-shadow: 0 3px 10px rgba(0,0,0,0.25);
     transform: translateY(-2px);
 }
