@@ -578,28 +578,19 @@ textarea {
 /* Botones Formulario */
 .btn-form-contact {
 	background: url(../img/fondoazul.png);
-	border-radius: 2px;
-	border-style: none;
-	box-shadow: 1px 0px #202020,
-							0px 1px #202020,
-							2px 1px #202020,
-							1px 2px #202020,
-							3px 2px #202020,
-							2px 3px #202020,
-							4px 3px #202020,
-							3px 4px #202020,
-							5px 4px #202020,
-							4px 5px #202020,
-							6px 5px #202020,
-							5px 6px #202020;
-	color: #ffffff;
-	cursor: pointer;
-	display: block;
-	font-size: 12px;
-	letter-spacing: 1px;
-	padding: 10px 20px;
-	text-transform: uppercase;
-  transition: 0.3s ease all;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #ffffff;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: 1px solid #0c304f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 /* Hover botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
