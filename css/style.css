@@ -665,6 +665,20 @@ footer p{
 	bottom: 120px;
 	right: 50px;
 }
+.ir-arriba:hover{
+	background: url(../img/carpeta.gif);
+	display: none;
+	padding: 50px;
+	background-size: cover;
+	box-sizing: border-box;
+	border-radius: 1px;	
+	font-size: 40px;
+	color: white;	
+	cursor: pointer;
+	position: fixed;
+	bottom: 120px;
+	right: 50px;	
+}
 .pie{
 	text-align: center;
 	align-items: center;
@@ -791,9 +805,14 @@ footer p{
 	}
 	.ir-arriba{
 		padding: 30px;
-	        right: 100px;
+	    right: 100px;
 		bottom: 80px;
-        }
+    }
+	.ir-arriba:hover{
+		padding: 30px;
+		right: 100px;
+		bottom: 80px;
+	}
 	.pie ul li img{
 	width: 40px;
 	}
