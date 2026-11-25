@@ -651,33 +651,70 @@ footer p{
 	font-size: 18px;
 	color: white;
 }
-.ir-arriba{
-	display: none;
-	padding: 60px;
-	background: url(../img/Logo.gif);
-	background-size: cover;
-	box-sizing: border-box;
-	border-radius: 50px;
-	font-size: 40px;
-	color: white;
-	cursor: pointer;
-	position: fixed;
-	bottom: 120px;
-	right: 50px;
+.ir-arriba {
+    display: none;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
+    z-index: 1000;
+    perspective: 1000px;
+
+    /* Duración de la transición */
+    --velocidad: 800ms;
 }
-.ir-arriba:hover{
-	background: url(../img/carpeta.gif);
-	display: none;
-	padding: 50px;
-	background-size: cover;
-	box-sizing: border-box;
-	border-radius: 1px;	
-	font-size: 40px;
-	color: white;	
-	cursor: pointer;
-	position: fixed;
-	bottom: 120px;
-	right: 50px;	
+
+/* Propiedades comunes de ambas imágenes */
+
+.ir-arriba::before,
+.ir-arriba::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    pointer-events: none;
+
+    transition:
+        opacity var(--velocidad) ease-in-out,
+        transform var(--velocidad) ease-in-out;
+}
+
+/* Imagen principal */
+
+.ir-arriba::before {
+    background-image: url(../img/Logo.gif);
+    border-radius: 50%;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1);
+}
+
+/* Imagen secundaria */
+
+.ir-arriba::after {
+    background-image: url(../img/carpeta.gif);
+    border-radius: 1px;
+    opacity: 0;
+    transform: rotateY(-90deg) scale(0.85);
+}
+
+/* Desaparición progresiva del logo */
+
+.ir-arriba:hover::before {
+    opacity: 0;
+    transform: rotateY(90deg) scale(0.85);
+}
+
+/* Aparición progresiva de la carpeta */
+
+.ir-arriba:hover::after {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1);
 }
 .pie{
 	text-align: center;
